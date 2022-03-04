@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="modulo.js" type="module"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <title>ME ACHA!-ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</title>
+</head>
+
+<body>
+
+    <header id="cabecalho">
+
+        <h1>ME ACHA!</h1>
+        <h2>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+        <span id="icone" class="material-icons-outlined">travel_explore</span>
+
+    </header>
+
+    <main>
+
+        <form method="get" id="formu">
+
+            <fieldset id="field">
+                <section id="selecao">
+            <label for="cep">Cep</label>
+            <input type="text" class="cep" required  id="cep" name="cep" value="">
+            <label for="bairro">Bairro</label>
+            <input type="text" class="bairro" required disabled id="bairro" name="bairro" value="">
+            <label for="rua">Rua</label>
+            <input type="text" class="rua" required disabled id="logradouro" name="rua" value="">
+            <label for="cidade">Cidade</label>
+            <input type="text" class="cidade" required disabled id="localidade" name="cidade" value="">
+            <label for="estado">Estado</label>
+            <input type="text" class="estado" required disabled id="uf" name="estado" value="">
+                    </section>
+            <input type="button" class="buscar" id="buscar" name="buscar" value="BUSCAR">
+            </fieldset>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header#cabecalho{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient( #2196F3,#3D5AFE) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: Verdana;
+    color: white;
+}
+
+h2{
+    font-size: 12px;
+    font-family: Verdana;
+    color: white;
+}
+
+span#icone{
+    padding: 10px ;
+    background-color: white;
+    color:#2196F3;
+    border-radius: 100%;
+    font-size: 64px;
+    position: absolute;
+    top: 165px;
+    cursor: pointer;
+}
+
+span#icone:hover{
+    padding: 10px ;
+    background-color: white;
+    color:#2196F3;
+    border-radius: 100%;
+    font-size: 80px;
+    position: absolute;
+    top: 160px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+main{
+    width: 100%;
+    margin-top: 1vh;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form#formu{
+    margin-left: 38vw;
+    margin-right: 37vw;
+    margin-top: 10vh;
+    width: 5vw;
+    height: auto;
+    
+}
+
+fieldset{
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-right: 4vw;
+    padding-left: 4vw;
+}
+
+label{
+    display: block;
+    height: auto;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+input{
+    width: 18vw;
+    cursor: pointer;
+}
+
+#buscar{
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    width: 18vw;
+    height: 5vh;
+    background-color: #2196F3;
+    border-bottom: 3px solid #0D47A1;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#buscar:hover{
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    width: 18vw;
+    height: 5vh;
+    background-color: #3D5AFE;
+    border-bottom: 3px solid #0D47A1;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 1.5s;
+}
