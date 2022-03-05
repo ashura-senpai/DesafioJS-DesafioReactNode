@@ -25,6 +25,31 @@ h2{
     color: white;
 }
 
+#buscar{
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    width: 18vw;
+    height: 5vh;
+    background-color: #2196F3;
+    border-bottom: 3px solid #0D47A1;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#buscar:hover{
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    width: 18vw;
+    height: 5vh;
+    background-color: #3D5AFE;
+    border-bottom: 3px solid #0D47A1;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
 span#icone{
     padding: 10px ;
     background-color: white;
@@ -81,29 +106,4 @@ label{
 input{
     width: 18vw;
     cursor: pointer;
-}
-
-#buscar{
-    margin-bottom: 3vh;
-    margin-top: 3vh;
-    width: 18vw;
-    height: 5vh;
-    background-color: #2196F3;
-    border-bottom: 3px solid #0D47A1;
-    color: white;
-    border-radius: 7px;
-    cursor: pointer;
-}
-
-#buscar:hover{
-    margin-bottom: 3vh;
-    margin-top: 3vh;
-    width: 18vw;
-    height: 5vh;
-    background-color: #3D5AFE;
-    border-bottom: 3px solid #0D47A1;
-    color: white;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: 1.5s;
 }

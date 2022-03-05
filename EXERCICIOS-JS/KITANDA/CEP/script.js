@@ -7,9 +7,7 @@ function identificadorDeCep(){
     const estado_ = document.querySelector("#uf");
     const buscar_ = document.querySelector("#buscar");
 
-
     let dadosCep = async function(cep){
-
     let url = `https://viacep.com.br/ws/${cep}/json/`
 
         try{
@@ -19,22 +17,17 @@ function identificadorDeCep(){
             resultadoPesquisa(dadosJson);
         }catch(error){
             alert(error);
-            
         }
     }
     
     function resultadoPesquisa(dados){
 
         for(let valor in dados){
-
             if(document.querySelector(`#${valor}`)){
                 document.querySelector(`#${valor}`).value = dados[valor];
             }
         }
     }
-
-
-
 
     buscar_.addEventListener("click", function(){
     
